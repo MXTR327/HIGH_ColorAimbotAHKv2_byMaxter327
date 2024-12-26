@@ -1,4 +1,4 @@
-**Instrucciones de uso del script ColorAimbotAHKv2_byMaxter327**
+**Instrucciones de uso del script HIGH_ColorAimbotAHKv2_byMaxter327**
 
 **Paso 1: Instalación**
 
@@ -6,7 +6,7 @@
 
 **Paso 2: Ejecución**
 
-* Ejecuta el script haciendo doble clic en el archivo `ColorAimbotAHKv2_byMaxter327.ahk`.
+* Ejecuta el script haciendo doble clic en el archivo `HIGH_ColorAimbotAHKv2_byMaxter327.ahk`.
 * El script se ejecutará en segundo plano y comenzará a funcionar automáticamente.
 
 **Paso 3: Uso y Configuración**
@@ -18,21 +18,25 @@
 * `F5`: Recarga el script.
 
 **Explicación de Variables en `config.ini`:**
-- `EMCol`: Color del aura del objetivo (en formato hexadecimal).
-- `ColVn`: Valor de rango de colores de visibilidad del objetivo (en números enteros).
-- `OffsetX`: Desplazamiento extra en el eje X para el apuntado mas hacia la derecha (puede ser negativo para apuntar mas hacia la izquierda).
-- `OffsetY`: Desplazamiento extra en el eje Y para el apuntado mas hacia abajo (puede ser negativo para apuntar mas hacia arriba).
-- `SmoothFactor`: Factor de suavizado para el movimiento del apuntado (valores entre 0 y 1).
-- `isActiveDefault`: Estado inicial del script (true = activo, false = inactivo).
-- `CFovX`: Campo de visión en el eje X (en números enteros).
-- `CFovY`: Campo de visión en el eje Y (en números enteros).
-- `AntiShakeX`: Valor para ignorar el movimiento en el eje X (en números enteros).
-- `AntiShakeY`: Valor para ignorar el movimiento en el eje Y (en números enteros).
-
+- `optimizarPantalla`:  Si el script debe optimizar la pantalla (true = sí, false = no). Esto puede hacer que el script funcione mejor.
+- `distancia_giro_360_inches`: Cuántas pulgadas recorre el ratón para girar completamente en 360 grados (mide el giro en el juego).
+- `apuntar_al_presionar_ClickIzquierdo`: Si el aimbot debe activarse al presionar el botón izquierdo del ratón (true = sí, false = no).
+- `apuntar_al_presionar_ClickDerecho`: Si el aimbot debe activarse al presionar el botón derecho del ratón (true = sí, false = no).
+- `sensibilidad_del_juego`: Sensibilidad en el juego.
+- `area_busqueda_X`: El área a buscar en el eje horizontal (X) de la pantalla cuando el script está buscando un objetivo..
+- `area_busqueda_Y`: El área a buscar en el eje vertical (Y) de la pantalla cuando el script está buscando un objetivo.
+- `fov_del_juego`: El campo de visión del juego, o sea, cuánta parte de la pantalla se puede ver al apuntar (en grados).
+- `aimbot_activado_por_defecto`: Si el aimbot está activado o desactivado cuando inicias el script (true = activado, false = desactivado).
+- `color_hex_busqueda`: El color que el script buscará en la pantalla para encontrar un objetivo.
+- `variacion_color`: Cuánto puede cambiar el color para que el script lo detecte como un objetivo (valor de tolerancia).
+- `compensar_area_busqueda_X`: Ajuste para mover el área de búsqueda un poco a la izquierda o derecha (en píxeles).
+- `compensar_area_busqueda_Y`: Ajuste para mover el área de búsqueda un poco hacia arriba o abajo (en píxeles).
+- `velocidad_de_apuntado_X`: Qué tan rápido se mueve el ratón en el eje X al apuntar hacia el objetivo.
+- `velocidad_de_apuntado_Y`: Qué tan rápido se mueve el ratón en el eje Y al apuntar hacia el objetivo.
 
 **Paso 5: Desinstalación**
 
-* Para desinstalar el script, simplemente cierra el proceso de AutoHotkey y elimina los archivos del script.
+* Para desinstalar el script, simplemente cierra el proceso y elimina los archivos del script.
 
 **Consejos y advertencias**
 
